@@ -1,0 +1,17 @@
+name: 'Ruby libre2-dev'
+description: 'Install Ruby and libre2-dev'
+inputs:
+  ruby-version:
+    description: 'The version of Ruby to install'
+    required: true
+    default: '2.6'
+  libre2-dev-url:
+    description: 'The URL of a version of libre2-dev to install'
+    required: true
+    default: 'https://github.com/mudge/re2/releases/download/v1.2.0/libre2-dev_20200501_amd64.deb'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  args:
+    - ${{ inputs.ruby-version }}
+    - ${{ inputs.libre2-dev-url }}
