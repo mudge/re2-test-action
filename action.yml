@@ -1,5 +1,5 @@
-name: 'Ruby libre2-dev'
-description: 'Install Ruby and libre2-dev'
+name: 're2 Test Action'
+description: 'Run re2 test suite against different Rubies and libre2-dev versions'
 inputs:
   ruby-version:
     description: 'The version of Ruby to install'
