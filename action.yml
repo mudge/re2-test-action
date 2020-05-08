@@ -4,7 +4,7 @@ inputs:
   ruby-version:
     description: 'The version of Ruby to install'
     required: true
-    default: '2.6'
+    default: 'ruby2.6'
   libre2-dev-url:
     description: 'The URL of a version of libre2-dev to install'
     required: true
