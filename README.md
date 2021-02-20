@@ -1,3 +1,5 @@
+**DEPRECATED:** This project has now been superseded by [re2-ci](https://github.com/mudge/re2-ci).
+
 # re2 Test Action
 
 This action will install a specified version of Ruby using either the
